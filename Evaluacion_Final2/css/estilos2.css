@@ -1,0 +1,163 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-family: Helvetica, Arial, sans-serif;
+	color: #666;
+	background: #f2f2f2;
+	font-size: 1em;
+	line-height: 1.5em;
+}
+
+h1 {
+	column-span:all;
+	font-size: 2.3em;
+	line-height: 1.3em;
+	margin: 15px 0;
+	text-align: center;
+	font-weight: 300;
+}
+#main-header {
+	background: #5b7989;
+	color:white;
+	text-shadow: -3px 2px #02010a;
+	height: 80px;
+	border-radius: 69px 69px 69px 69px;
+-moz-border-radius: 69px 69px 69px 69px;
+-webkit-border-radius: 69px 69px 69px 69px;
+border: 0px solid #000000;
+display:block;/*para IE*/
+}
+	#main-header a {
+		color: white;
+	}
+	/*
+	*Imagenes
+	*/
+	img{
+		border: 2px solid white;
+		width: auto;
+		height: 400px;
+
+			}
+	.contenedor > div {
+		text-align: center;
+		padding: 2px;
+		margin: 2px;
+		display:block;
+		column-span:all;
+	}
+
+	#ima1 img{
+			filter:blur(10px);
+					}
+
+	#ima2 img{
+			filter:grayscale(100%);
+			width: auto;
+				}
+	#ima3 img{
+		filter:sepia(90%);
+	}
+	#ima4 img{
+			filter:grayscale(100%);
+		}
+		#ima5 img{
+
+			}
+		#ima6 img{
+					filter:grayscale(100%);
+
+				}
+
+		/*
+ * Logo
+ */
+#logo-header {
+	float: left;
+	padding: 15px 0 0 20px;
+	text-decoration: none;
+}
+	#logo-header:hover {
+		color: #0b76a6;
+	}
+
+	#logo-header .site-name {
+		display: block;
+		font-weight: 700;
+		font-size: 1.2em;
+	}
+
+	#logo-header .site-desc {
+		display: block;
+		font-weight: 300;
+		font-size: 0.8em;
+		color: #999;
+	}
+/*
+ * Navegación
+ */
+nav {
+	float: right;
+}
+	nav ul {
+		margin: 0;
+		padding: 0;
+		list-style: none;
+		padding-right: 20px;
+	}
+		nav ul li {
+			display: inline-block;
+			line-height: 80px;
+		}
+			nav ul li a {
+				display: block;
+				padding: 0 10px;
+				text-decoration: none;
+			}
+				nav ul li a:hover {
+					background: #0b76a6;
+				}
+#contenedor_principal{
+width:100%;
+height:auto;
+position:relative;
+margin:auto;
+column-span:all;
+}
+.contenedor_imagen_texto{
+width:33%;
+height:auto;
+position:relative;
+display:inline-block;
+vertical-align:top;
+overflow:hidden;
+}
+.imagen, .texto{
+width:100%;
+height:auto;
+position:relative;
+display:inline;
+}
+.texto{
+height:auto;
+text-align:center
+}
+/*footer*/
+.footer1{
+background:#C6d5c5;
+border-radius: 0px 0px 10px 10px;
+-moz-border-radius: 0px 0px 10px 10px;
+-webkit-border-radius: 0px 0px 10px 10px;
+}
+
+table {
+
+column-count:4;
+	 column-gap: 3em;
+	 column-rule: 6px solid #bbb;
+}
+th, td {
+width:29%;
+vertical-align:text-top;
+text-align: justify;
+}
