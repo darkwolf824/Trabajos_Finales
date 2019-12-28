@@ -93,6 +93,7 @@ display:block;/*para IE*/
 		font-size: 0.8em;
 		color: #999;
 	}
+
 /*
  * Navegación
  */
@@ -117,6 +118,7 @@ nav {
 				nav ul li a:hover {
 					background: #0b76a6;
 				}
+
 #contenedor_principal{
 width:100%;
 height:auto;
